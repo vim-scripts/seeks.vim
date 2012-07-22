@@ -1,0 +1,21 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4143
+
+Homepage: https://github.com/sanpii/seeks.vim
+Screenshot: http://cloud.github.com/downloads/sanpii/seeks.vim/seeks-vim.png
+
+# Requirements
+
+    * https://github.com/mattn/webapi-vim
+
+## Usage
+
+    nnoremap <silent> <C-K> :call seeks#Search('<cword>')<CR>
+
+### Commands
+
+    :Seeks [query]
+
+## Configuration
+
+    let g:seeks_node = 'http://seeks.fr'
+    let g:seeks_max_results = 5
